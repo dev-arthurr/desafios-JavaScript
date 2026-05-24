@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 04</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>CALCULADORA INTELIGENTE</h1>
+
+            <div class="inputs">
+                <label for="saque">Digite o valor de saque:</label>
+                <input type="number" id="saque" value="0" min="0">
+            </div>
+
+            <div class="respostas">
+                <p id="resultado" style="display: none;"></p>
+                <p id="sobra" style="display: none;"></p>
+            </div>
+
+            <div class="btn">
+                <button type="submit" onclick="calcular()">SACAR</button>
+                <button type="submit" onclick="limpar()">LIMPAR</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
